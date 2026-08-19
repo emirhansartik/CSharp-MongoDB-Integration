@@ -38,5 +38,11 @@ namespace CSharpEgitimKampi601
             customerOperations.AddCustomer(customer);
             MessageBox.Show("Müşteri Ekleme İşlemi Başarılı", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void btnCustomerList_Click(object sender, EventArgs e)
+        {
+            List<Customer> customers = customerOperations.GetAllCustomer();
+            dataGridView1.DataSource = customers;
+        }
     }
 }
