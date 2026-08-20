@@ -77,6 +77,7 @@
             this.btnCustomerUpdate.TabIndex = 33;
             this.btnCustomerUpdate.Text = "Güncelle";
             this.btnCustomerUpdate.UseVisualStyleBackColor = false;
+            this.btnCustomerUpdate.Click += new System.EventHandler(this.btnCustomerUpdate_Click);
             // 
             // btnCustomerDelete
             // 
@@ -89,6 +90,7 @@
             this.btnCustomerDelete.TabIndex = 32;
             this.btnCustomerDelete.Text = "Sil";
             this.btnCustomerDelete.UseVisualStyleBackColor = false;
+            this.btnCustomerDelete.Click += new System.EventHandler(this.btnCustomerDelete_Click);
             // 
             // btnCustomerCreate
             // 
@@ -101,6 +103,7 @@
             this.btnCustomerCreate.TabIndex = 31;
             this.btnCustomerCreate.Text = "Ekle";
             this.btnCustomerCreate.UseVisualStyleBackColor = false;
+            this.btnCustomerCreate.Click += new System.EventHandler(this.btnCustomerCreate_Click);
             // 
             // txtCustomerCity
             // 
