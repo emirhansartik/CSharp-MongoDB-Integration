@@ -1,15 +1,20 @@
-# 🍃 C# & MongoDB Entegrasyonu
+# 🗄️ C# Multi-Database Entegrasyonu (MongoDB & PostgreSQL)
 
-Bu proje, C# ile NoSQL veritabanı mimarisi üzerine geliştirilmiş bir veri erişim uygulamasıdır. Geleneksel SQL tabloları yerine, esnek döküman (JSON/BSON) tabanlı veri yapısı kullanılmıştır.
+Bu proje, C# ile hem geleneksel ilişkisel (SQL) hem de ilişkisel olmayan (NoSQL) veritabanı mimarileri üzerine geliştirilmiş kapsamlı bir veri erişim uygulamasıdır. Proje kapsamında, modern backend sistemlerinde sıklıkla karşılaşılan "farklı veri tipleri için farklı veritabanları" (Polyglot Persistence) yaklaşımı simüle edilmiştir.
 
 ## 🚀 Proje Amacı
-İlişkisel olmayan (NoSQL) veritabanı mantığını kavramak ve C# üzerinden nesneleri doğrudan MongoDB'ye aktararak temel CRUD (Ekle, Sil, Güncelle, Listele) işlemlerini gerçekleştirmek.
+Aynı altyapı üzerinde birbirinden tamamen farklı iki veritabanı teknolojisinin nasıl entegre edilebileceğini kavramak. Uygulama içerisinde:
+* **MongoDB** ile esnek döküman (JSON/BSON) tabanlı NoSQL mimarisi kullanılarak,
+* **PostgreSQL** ile katı, kurumsal ve ilişkisel tablo (SQL) mimarisi kullanılarak
+temel CRUD (Ekle, Sil, Güncelle, Listele) operasyonları başarılı bir şekilde gerçekleştirilmiştir.
 
 ## 🛠️ Teknoloji Yığını
 * **Programlama Dili:** C# (.NET)
-* **Veritabanı:** MongoDB (Community Server & Compass)
-* **Araç / Sürücü:** MongoDB.Driver
+* **Veritabanları:** 
+  * 🍃 MongoDB (Community Server & Compass)
+  * 🐘 PostgreSQL (EnterpriseDB & pgAdmin 4)
+* **Araç / Sürücüler:** MongoDB.Driver, Npgsql
 * **Arayüz:** Windows Forms
 
 ---
-*Bu depo, backend sistemlerinde alternatif NoSQL çözümlerini kavramak amacıyla oluşturulmuştur.*
+*Bu depo, backend sistemlerinde farklı veritabanı çözümlerinin (SQL ve NoSQL) yeteneklerini aynı proje içerisinde harmanlamak ve kıyaslamak amacıyla oluşturulmuştur.*
