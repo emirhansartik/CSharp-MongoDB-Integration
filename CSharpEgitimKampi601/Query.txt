@@ -13,3 +13,8 @@ EmployeeSalary decimal not null,
 DepartmentId int,
 Foreign Key (DepartmentId) references Departments(DepartmentId) on delete cascade
 )
+
+
+Insert Into Departments (DepartmentName) values ('İnsan Kaynakları (İK)')
+
+Select * From Departments
