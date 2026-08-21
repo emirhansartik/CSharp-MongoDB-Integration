@@ -17,4 +17,4 @@ Foreign Key (DepartmentId) references Departments(DepartmentId) on delete cascad
 
 Insert Into Departments (DepartmentName) values ('İnsan Kaynakları (İK)')
 
-Select * From Departments
+Select * From Department
