@@ -72,7 +72,7 @@ namespace CSharpEgitimKampi601
             command.Parameters.AddWithValue("@employeeSalary", employeeSalary);
             command.Parameters.AddWithValue("@departmentid", departmentId);
             command.ExecuteNonQuery();
-            MessageBox.Show("Ekleme İşlemi Başarılı");
+            MessageBox.Show("Ekleme İşlemi Başarılı Bir Şekilde Tamamlandı.");
             connection.Close();
             EmployeeList();
         }

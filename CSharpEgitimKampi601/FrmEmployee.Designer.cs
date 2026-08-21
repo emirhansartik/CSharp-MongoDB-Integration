@@ -52,7 +52,7 @@
             this.btnGetById.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnGetById.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnGetById.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnGetById.Location = new System.Drawing.Point(148, 415);
+            this.btnGetById.Location = new System.Drawing.Point(164, 416);
             this.btnGetById.Name = "btnGetById";
             this.btnGetById.Size = new System.Drawing.Size(202, 40);
             this.btnGetById.TabIndex = 49;

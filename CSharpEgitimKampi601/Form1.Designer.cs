@@ -224,7 +224,7 @@
             this.btnGetByCustomerId.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnGetByCustomerId.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnGetByCustomerId.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnGetByCustomerId.Location = new System.Drawing.Point(142, 465);
+            this.btnGetByCustomerId.Location = new System.Drawing.Point(126, 464);
             this.btnGetByCustomerId.Name = "btnGetByCustomerId";
             this.btnGetByCustomerId.Size = new System.Drawing.Size(202, 40);
             this.btnGetByCustomerId.TabIndex = 17;
